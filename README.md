@@ -1,2 +1,2 @@
 # Emporio Padaria
- Lange Page de uma Padaria
+ Lange Page Padaria
