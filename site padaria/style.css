@@ -155,7 +155,7 @@ main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
 }
 
 #featured-products { /* ID usada para a section dos nossos produtos */
-    background: linear-gradient(180deg, #F4CEAF 8.33%, rgba(244, 200, 175, 0) 100%); /* Aqui colocamos uma estilização de fundo em Degradê */
+    background: linear-gradient(180deg, #d49664 8.33%, rgba(244, 200, 175, 0) 100%); /* Aqui colocamos uma estilização de fundo em Degradê */
     padding: 30px; /* Preenchimento */
 }
 
@@ -185,13 +185,22 @@ main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
     font-size: 20px; /* Tamanho da letra */
     color: red; /* Cor da Letra */
     justify-content: center;
-    margin-left: 40rem;
+    margin-left: 55rem;
 }
 
 #featured-products > a:hover { /* Aqui estamos chamando novamente nossa TAG de link para colocar um efeito Hover nela */
     text-decoration: underline; /* Aqui chamamos o text decoration para colocar uma decoração ao passar do cursos underline serve como um sublinhado em baixo do nome*/
     font-size: 22px; /* Tamanho da letra ao passar o cursor em cima */
     transition: 1s; /* O tempo que será realizado esta ação */
+}
+
+
+#featured-products > h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 30px;
 }
 
 

@@ -13,7 +13,7 @@
 body{
     width: 100%; /* Largura */
     height: 100vh; /* Tamanho   */
-    background-image: url(img/modelo.jpg); /* Aqui inserimos a imagem */
+    background-image: url(img/img-footer.jpg); /* Aqui inserimos a imagem */
     background-position: center; /* Posicionamos a imagem ao centro */
     background-repeat: no-repeat; /* Colocamos para que a img não se repita */
     background-size: cover; /* Aqui atribuímos para que a imagem fique sobre toda nossa página */

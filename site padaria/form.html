@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viagens e Destinos</title>
     <link rel="stylesheet" href="form.css">
-    <link rel="stylesheet" href="envia.php">
 </head>
 <body>
    
@@ -18,10 +17,10 @@
     <div class="container"> <!-- Abrimos uma Div para que possamos destacar nosso formulário  -->
 
 
-      <form method="post" action="../site padaria/envia.php"> <!-- Abrimos aqui nossa TAG de Formulário -->
+      <form method="get" action="cad.php"> <!-- Abrimos aqui nossa TAG de Formulário -->
 
 
-        <h1>Entre em Contato</h1> <!-- Título para o nosso formulário -->
+        <h1>Cadastre-se e tenha facilidades e descontos exclusivos</h1> <!-- Título para o nosso formulário -->
 
 
         <p>Preencha o formulário abaixo e entraremos em contato com você</p> <!-- Pequena descrição usando a TAG de Paragráfo  -->
@@ -31,21 +30,21 @@
             <input type="text" class="input" autocomplete="off" required id="nome" name="nome"> <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe 
                                                                                               e desabilitamos a preenchimento automático -->
 
-            <label for="nome-box">Seu nome completo</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+            <label for="nome">Nome</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
         </div>
 
 
         <div class="input-single"> <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
-            <input type="text" class="input" autocomplete="off" required id="email" name="email"> <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe 
+            <input type="text" class="input" autocomplete="off" required id="email" name="sobrenome"> <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe 
                                                                                               e desabilitamos a preenchimento automático -->
-            <label for="email-box">Seu Email</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+            <label for="sobrenome">Sobrenome</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
         </div>
 
 
         <div class="input-single"> <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
             <input type="number" class="input" autocomplete="off" required id="telefone" name="telefone"> <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe 
                 e desabilitamos a preenchimento automático -->
-            <label for="tel-box">Seu Telefone</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+            <label for="telefone">Telefone</label> <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
         </div>
 
 
